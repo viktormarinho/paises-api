@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Países API</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>Países API</h1>
+    </header>
+    <section class="content">
+        <div class="inputcontainer">
+            <input type="text" id="pais" placeholder="Pesquise nome de país">
+            <button onclick="nome()">Pesquisar por nome</button>
+            <button onclick="random()">Gerar aleatório</button>
+        </div>
+        <div class="respcontainer">
+            <img src="" alt="" id="bandeira">
+            <h2 id="nome">Nome: </h2>
+            <h3 id="cap">Capital: </h3>
+            <p id="nativename">Nome nativo: </p>
+            <p id="alpha2Code">Sigla: </p>
+            <p id="lang">Língua: </p>
+            <p id="moeda">Moedas: </p>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
